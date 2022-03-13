@@ -15,7 +15,7 @@ body {
 }
 
 .bar_nav {
-    background-color: var(--color3ro);
+    background-color: white;
     display: flex;
     min-height: 4rem;
 }
@@ -62,12 +62,14 @@ body {
 }
 
 
-.creador {
+/* .creador {
     text-align: center;
     font-size: 1.5rem;
     line-height: .5rem;
     
-}
+} */
+
+
 .s1_1 {
     width: 50%;
     display: flex;
@@ -87,7 +89,42 @@ body {
 /* DESKTOP */
 @media only screen and (max-width: 992px){
     body {
-        background-color: #ddc0c0;
+        background-color: var(--color1ro);
+    }
+
+    .s1 {
+        width: 100%;
+        height: 100vh;
+        display: block;
+    }
+
+    .titulo {
+        text-align: center;
+        font-size: 3rem;
+        /* line-height: .5rem; */
+        color: var(--color1ro);
+        font-style: italic;
+        font-weight: bolder;
+        /* Propiedad para que no se seleccione los textos*/
+        user-select: none;
+    }
+
+    .s1_1 {
+        width: 100%;
+        height: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+    
+    .container {
+        background-color: var(--color1ro);
+        width: 100%;
+    }
+
+    .col_12 , .carousel {
+        min-height: 75vh;
     }
 }
 
@@ -95,15 +132,87 @@ body {
 /* IPAD */
 @media only screen and (max-width: 768px){
     body {
-        background-color: #e41134;
+        background-color: var(--color1ro);
+    }
+
+    
+    .s1 {
+        width: 100%;
+        height: 100vh;
+        display: block;
+    }
+
+    .titulo {
+        text-align: center;
+        font-size: 3rem;
+        /* line-height: .5rem; */
+        color: var(--color1ro);
+        font-style: italic;
+        font-weight: bolder;
+        /* Propiedad para que no se seleccione los textos*/
+        user-select: none;
+    }
+
+    .s1_1 {
+        width: 100%;
+        height: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container {
+        background-color: var(--color1ro);
+        width: 100%;
+    }
+
+    .col_12 , .carousel {
+        min-height: 75vh;
     }
 }
 
 /* MOVIL */
 @media only screen and (max-width: 600px){
+
     body {
-        background-color: #F2FA5A;
+        background-color: var(--color1ro);
     }
+
+    
+    .s1 {
+        width: 100%;
+        height: 100vh;
+        display: block;
+    }
+
+    .titulo {
+        text-align: center;
+        font-size: 3rem;
+        /* line-height: .5rem; */
+        color: var(--color1ro);
+        font-style: italic;
+        font-weight: bolder;
+        /* Propiedad para que no se seleccione los textos*/
+        user-select: none;
+    }
+
+    .s1_1 {
+        width: 100%;
+        height: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container {
+        background-color: var(--color1ro);
+        width: 100%;
+    }
+
+    .col_12 , .carousel {
+        min-height: 75vh;
+    }
+
 }
 
 
